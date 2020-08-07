@@ -1,0 +1,18 @@
+body {
+    background-color: cornflowerblue;
+}
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+}
+.contenedor {
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+#poligono {
+    padding: 1rem;
+    
+}
