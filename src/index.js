@@ -1,8 +1,8 @@
 import Circulo from './Circulo.js'
 import Octagono from './Octagono'
-import Triangulo from './triangulo.js'
-import Cuadrado from './cuadrado.js'
-import Decagono from './decagono'
+import Triangulo from './Triangulo'
+import Cuadrado from './Cuadrado'
+import Decagono from './Decagono'
 
 document.getElementsByTagName('select')[0].addEventListener('change', function (e) {
   let poligono = e.target.value

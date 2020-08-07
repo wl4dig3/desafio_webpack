@@ -6,7 +6,7 @@ class Octagono extends Poligono {
   }
     
     area(){
-      return (this.base * this.altura) / 2
+      return (this.base * this.apotema) / 2
     }
     perimetro(){
       return this.lado * 8
