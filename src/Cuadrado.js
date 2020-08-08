@@ -1,15 +1,16 @@
 import Poligono from './Poligono'
 
-class Cuadrado extends Poligono{
-  constructor(){
-    super()
-  }
-  area(){
-    return (this.lado * this.lado)
-  }
-  perimetro(){
-    return (this.lado * 4) 
+const cuadrado = {
+
+  area() {
+    let lado = Poligono.valores()[1]
+
+    return (lado * lado)  / 2
+  },
+  perimetro() {
+    console.log(this)
+    let lado = Poligono.valores()[1]
+    return lado * 4
   }
 }
-
-export default Cuadrado
+export default cuadrado

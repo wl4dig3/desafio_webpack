@@ -1,16 +1,16 @@
-import Poligono from './poligono'
+import Poligono from './Poligono'
 
-class Octagono extends Poligono {
-  constructor() {
-    super()
+const octagono = {
+
+  area() {
+    let lado = Poligono.valores()[1]
+    let apotema = Poligono.valores()[3]
+    return (lado * 10) * apotema / 2
+  },
+  perimetro() {
+    console.log(this)
+    let lado = Poligono.valores()[1]
+    return lado * 10
   }
-    
-    area(){
-      return (this.base * this.apotema) / 2
-    }
-    perimetro(){
-      return this.lado * 8
-    }
 }
-
-export default Octagono 
+export default octagono

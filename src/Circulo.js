@@ -1,16 +1,16 @@
 import Poligono from './Poligono'
 
-class Circulo extends Poligono {
-  constructor() {
-    super()
-  }
+const circulo = {
+  
   area() {
-    return Math.pow(this.radio, 2) * Math.PI
-  }
+    let radio = Poligono.valores()[4]
+    return Math.pow(radio, 2) * Math.PI
+  },
   perimetro() {
     console.log(this)
-    return Math.PI * 2 * this.radio
+    let radio = Poligono.valores()[4]
+    return Math.PI * 2 * radio
   }
 }
 
-export default Circulo
+export default circulo
