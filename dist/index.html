@@ -15,6 +15,7 @@
     <section class="contenedor">
       <div class="wrap">
         <select name="figuras" id="poligono">
+          <option value="">Seleccione un Poligono</option>
           <option value="triangulo">Triángulo</option>
           <option value="cuadrado">Cuadrado</option>
           <option value="circulo">Círculo</option>
@@ -22,19 +23,20 @@
           <option value="decagono">Decágono</option> </select
         ><br />
         <label for="base">Base:</label>
-        <input type="number" name="base" id="base" placeholder="  ingrese un número"/>
+        <input type="number" name="base" id="base" placeholder="  ingrese un número para calcular la Base"/>
         <label for="lado">Lado:</label>
-        <input type="number" name="lado" id="lado" placeholder="  ingrese  un número"/>
+        <input type="number" name="lado" id="lado" placeholder="  ingrese  un número para calcular el Lado"/>
         <label for="altura">Altura:</label>
-        <input type="number" name="altura" id="altura" placeholder="  ingrese un número"/>
+        <input type="number" name="altura" id="altura" placeholder="  ingrese un número para calcular la Altura"/>
         <label for="apotema">Apotema:</label>
-        <input type="number" name="apotema" id="apotema"placeholder="  ingrese  un número" />
+        <input type="number" name="apotema" id="apotema"placeholder="  ingrese  un número para calcular el Apotema" />
         <label for="apotema">Radio:</label>
-        <input type="number" name="radio" id="radio" placeholder="  ingrese un número"/> 
+        <input type="number" name="radio" id="radio" placeholder="  ingrese un número para calcular el Radio"/> 
+        <p id="texto"></p>
+        <p id="texto2"></p>
       </div>
     </section>
 
-    <div class="texto"></div>
   
     <script src="main.js"></script>
   </body>
